@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/maven/repo/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.8.2/junit-4.8.2.jar" sourcepath="M2_REPO/junit/junit/4.8.2/junit-4.8.2-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/ibm-jdk-1.6.0"/>
+	<classpathentry kind="lib" path="aspectjrt-1.6.10.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-asm-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-support-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jdbc-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/aspectj-weaver.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
